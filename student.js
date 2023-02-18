@@ -29,7 +29,13 @@ const params = {
 
  }
 
- await create();
+ const enter = async () => {
+  await create();
+ }
+
+ enter();
+
+ 
 
  const docClient = new AWS.DynamoDB.DocumentClient();
 
@@ -51,7 +57,12 @@ const put = async () => {
   
 }
 
-await put()
+const update = async () => {
+  await put();
+
+}
+
+
 
 
 
