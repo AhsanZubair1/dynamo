@@ -46,7 +46,7 @@ const paramss = {
     "class": "History"
   }
 };
-const put = async () => {
+const puts = async () => {
   docClient.put(paramss, function(err, data) {
     if (err) {
       console.error("Error adding item: ", err);
@@ -58,9 +58,10 @@ const put = async () => {
 }
 
 const update = async () => {
-  await put();
+  await puts();
 
 }
+update()
 
 
 
