@@ -31,6 +31,3 @@ dynamodb.createTable(params, (err, data) => {
     console.log('Table created successfully:', data);
   }
 });
-git remote add origin https://username@bitbucket.org/AhsanZubair1/dynamo.gi
-
-git remote add origin https://github.com/AhsanZubair1/dynamo.git
